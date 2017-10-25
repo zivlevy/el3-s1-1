@@ -29,6 +29,7 @@ function addListItem() {
         counter++;
     } else {
         li.innerHTML = myInput.value;
+        myInput.value="";
     }
     li.addEventListener('click', listItemClicked);
 
