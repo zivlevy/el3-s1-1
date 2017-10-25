@@ -1,5 +1,5 @@
 /**
- * Created by zivlevy on 20/01/2017.
+ * Created by zivlevy on 20/10/2017.
  */
 let myHeader = document.getElementById("myHeader");
 let myButton = document.getElementById("myButton");
