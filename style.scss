@@ -1,0 +1,86 @@
+body {
+    /*font-family: Arial;*/
+    font-family: 'Raleway', sans-serif;
+    background-color: lemonchiffon;
+
+}
+
+#wrapper {
+    width:900px;
+    margin: 50px auto;
+
+}
+
+.nonselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+h1 {
+    font-size: 60px;
+    color: darkslategray;
+}
+
+input {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+#myButton {
+    padding:1px 20px;
+    border-radius: 3px;
+    background-color: darkslategray;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+li {
+    width: 200px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid 1px lightgray;
+
+}
+li:hover {
+    background-color: antiquewhite;
+}
+
+a:visited {
+    color: black;
+}
+
+.fa{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa:hover {
+    color: orangered;
+}
+
+
+footer {
+    margin-top: 50px;
+}
+
+#copyright{
+    line-height: 30px;
+    float: right;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.active:hover {
+    background-color: lightblue;
+}
+
+
